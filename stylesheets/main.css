@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family:'PT Sans', sans-serif;
+  min-width: 996px;
+}
+
+body {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 1440px;
+  margin: 0 auto;
+}

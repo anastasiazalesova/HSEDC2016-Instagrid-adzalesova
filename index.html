@@ -5,19 +5,53 @@
     <meta name="viewport" content="width=device-width">
     <title>Instagrid</title>
 
+    <meta name="description" content="Набор картинок из Instagram">
+    <meta name="keywords" content="hsedc2020, hsedesign, instagrid">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:title" content="Instagrid">
+    <meta property="og:description" content="Фотографии из инстаграмма.">
+    <meta property="og:image" content="">
+
     <link rel="stylesheet" href="stylesheets/style.css">
+
     <script src="javascripts/jquery-3.1.1.js"></script>
     <script src="javascripts/social-likes.min.js"></script>
   </head>
-  <body class="landing bg">
-    <nav class="menubar">
-      <div>
-        <a class="name" href="#">Stefan Sagmeister</a>
-        <a class="about" href="http://sagmeisterwalsh.com/">About</a>
-        <a class="contact" href="https://www.instagram.com/stefansagmeister/">Сontacts</a>
-      </div>
+  <body>
+    <section class="gallery">
+      <nav class="galleryNav">
+        <div class="disabled" id="prev"></div>
+        <div id="next"></div>
+      </nav>
 
-    </nav>
+      <nav class="galleryNav2">
+        <div class="disabled" id="prev"></div>
+        <div class="circle" id="next2"></div>
+      </nav>
+
+      <section class="images">
+        <div class="allImages first">
+          <figure class="photo1"></figure>
+          <figure class="photo2"></figure>
+          <figure class="photo3"></figure>
+        </div>
+
+        <div class="allImages next">
+          <figure class="photo4"></figure>
+          <figure class="photo5"></figure>
+          <figure class="photo6"></figure>
+        </div>
+
+        <div class="allImages next last">
+          <figure class="photo7"></figure>
+          <figure class="photo8"></figure>
+          <figure class="photo9"></figure>
+        </div>
+      </section>
+    </section>
+
 
   </body>
 </html>

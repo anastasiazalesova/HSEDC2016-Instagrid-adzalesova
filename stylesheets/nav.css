@@ -1,0 +1,22 @@
+.galleryNav {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.galleryNav div {
+  width: 20px;
+  height: 20px;
+  margin: 30px;
+  position: relative;
+  transform: rotate(-45deg);
+  z-index: 1;
+  cursor: pointer;
+}
+
+.galleryNav .disabled {
+  cursor: default;
+  opacity: 0;
+}
