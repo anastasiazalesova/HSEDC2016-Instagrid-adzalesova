@@ -1,0 +1,42 @@
+nav {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+  width: 99vw;
+  top: 45%;
+}
+
+.btn {
+  cursor: pointer;
+  opacity: .3;
+}
+
+.btn:hover {
+  opacity: .4;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.arrow {
+  position: fixed;
+  width: 14px;
+  height: 14px;
+  border-right: 5px solid white;
+  border-bottom: 5px solid white;
+  margin: 13px;
+}
+
+.prev {
+  margin-left: 10px;
+  transform: rotate(135deg);
+}
+
+.next {
+  transform: rotate(-45deg);
+}

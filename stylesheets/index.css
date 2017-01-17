@@ -1,0 +1,45 @@
+.gallerySmall {
+  position: absolute;
+  overflow: scroll;
+  overflow-y: hidden;
+  display: flex;
+  align-items: center;
+  width: 120vh;
+  height: 100vh;
+}
+
+.imagesSmall {
+  display: flex;
+}
+
+.photoblockSmall {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90vh;
+  height: 60vh;
+}
+
+.bigSmall {
+  width: 57vh;
+  height: 57vh;
+}
+
+.smallSmall {
+  width: 27vh;
+  height: 57vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bigImgSmall {
+  width: 57vh;
+  height: 57vh;
+}
+
+.smallImgSmall {
+  width: 27vh;
+  height: 27vh;
+}
