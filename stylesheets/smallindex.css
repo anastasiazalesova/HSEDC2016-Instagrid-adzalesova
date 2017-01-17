@@ -1,0 +1,49 @@
+.gallery {
+  position: relative;
+  overflow: scroll;
+  overflow-y: hidden;
+  display: flex;
+  align-items: center;
+  width: 100vw;
+}
+
+.images {
+  display: flex;
+}
+
+.photoblock {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 150vh;
+  height: 100vh;
+}
+
+.big {
+  height: 100vh;
+  width: 100vh;
+}
+
+.small {
+  height: 100vh;
+  width: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.bigImg {
+  height: 100vh;
+  width: 100vh;
+}
+
+.smallImg {
+  height: 50vh;
+  width: 50vh;
+}
+
+@media screen and (max-width: 1460px) {
+  .body {
+    width: 100%
+  }
+}
