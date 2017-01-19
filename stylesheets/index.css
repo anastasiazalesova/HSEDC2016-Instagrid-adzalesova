@@ -1,11 +1,11 @@
 .gallerySmall {
-  position: absolute;
   overflow: scroll;
   overflow-y: hidden;
   display: flex;
   align-items: center;
   width: 120vh;
   height: 100vh;
+  margin: auto;
 }
 
 .imagesSmall {
